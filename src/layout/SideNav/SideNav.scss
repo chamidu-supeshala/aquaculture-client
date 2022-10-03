@@ -1,0 +1,26 @@
+.header-nav {
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+
+    &:hover {
+      color: #cccccc;
+      text-decoration: none;
+    }
+
+    &:focus {
+      text-decoration: none;
+    }
+
+    &:last-of-type {
+      margin-right: 10px;
+    }
+  }
+
+  .right-nav {
+    display: flex;
+    margin-left: auto;
+  }
+}

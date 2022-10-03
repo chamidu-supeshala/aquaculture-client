@@ -1,0 +1,55 @@
+.farm-info {
+  background-color: #ffffff;
+
+  .farm-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 1;
+  }
+
+  .farm-details-wrapper {
+    margin-left: 10px;
+
+    h2 {
+      margin: 0 0 10px 0;
+    }
+
+    h3 {
+      margin: 22px 0 0 0;
+    }
+
+    .farm-details {
+      p {
+        margin: 10px 0;
+      }
+    }
+
+    .workers {
+      margin-top: 18px;
+
+      .workers-list {
+        padding: 0;
+
+        .worker {
+          padding: 16px;
+          border: 1px dashed gray;
+          background-color: #f8faff;
+          border-radius: 2px;
+          font-weight: 500;
+
+          .image-wrapper {
+            padding: 10px 10px 0 10px;
+
+            .worker-image {
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              aspect-ratio: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
